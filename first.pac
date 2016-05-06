@@ -234,8 +234,10 @@ function FindProxyForURL(url, host)
 //PPTV
      || shExpMatch(url, ".*de.as.pptv.com*")
      || shExpMatch(url, ".*jp.as.pptv.com*"))
+
      return "BLACK";
-{if (0
+
+if (0
      || shExpMatch(url, "http://*google*")
      || shExpMatch(url, "http://*twitter*")
      || shExpMatch(url, "http://*facebook*")
@@ -266,6 +268,6 @@ function FindProxyForURL(url, host)
      || shExpMatch(url, ".*line.naver.jp*")
      || shExpMatch(url, ".*line-apps.com*")
 
-     || shExpMatch(url, ".*rakuten.co.jp*")
+     || shExpMatch(url, ".*rakuten.co.jp*"))
      return "PROXY";
  else return "DIRECT";}
