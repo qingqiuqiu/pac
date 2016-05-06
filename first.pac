@@ -1,9 +1,8 @@
+function FindProxyForURL(url, host)
 var PROXY = “SOCKS5 localhost:1080“;
 var BLACK = “localhost:80”;
 var DIRECT = “DIRECT”;
-
-function FindProxyForURL(url, host)
- {if (0
+{ {if (0
 //阻止应用程序内隐私跟踪
      || shExpMatch(url, ".*mmstat.com*")
      || shExpMatch(url, ".*doubleclick.net*")
@@ -235,9 +234,9 @@ function FindProxyForURL(url, host)
      || shExpMatch(url, ".*de.as.pptv.com*")
      || shExpMatch(url, ".*jp.as.pptv.com*"))
 
-     return "BLACK";
+     return "BLACK";}
 
-if (0
+{if (0
      || shExpMatch(url, "http://*google*")
      || shExpMatch(url, "http://*twitter*")
      || shExpMatch(url, "http://*facebook*")
@@ -269,5 +268,5 @@ if (0
      || shExpMatch(url, ".*line-apps.com*")
 
      || shExpMatch(url, ".*rakuten.co.jp*"))
-     return "PROXY";
+     return "PROXY";}
  else return "DIRECT";}
