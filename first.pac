@@ -236,7 +236,7 @@ var DIRECT = “DIRECT”;
 
      return "BLACK";
 
-if (0
+if (1
      || shExpMatch(url, "http://*google*")
      || shExpMatch(url, "http://*twitter*")
      || shExpMatch(url, "http://*facebook*")
