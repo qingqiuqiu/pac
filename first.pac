@@ -1,4 +1,4 @@
-var PROXY = “SOCKS5 127.0.0.1:1080“;
+var PROXY = “SOCKS5 localhost:1080“;
 var BLACK = “localhost:80”;
 var DIRECT = “DIRECT”;
 
